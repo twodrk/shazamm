@@ -1,0 +1,33 @@
+{
+    "name": "Shazamm",
+    "description": "Shazam",
+    "keywords": [
+        "telegram",
+        "sarki",
+        "muzik",
+        "bul",
+        "bot"
+    ],
+    "repository": "https://github.com/twodrk/shazamm",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "",
+            "required": "True"
+        },
+        "API_HASH": {
+            "description": "",
+            "required": "True"
+        }
+    },
+    "stack": "heroku-18",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
